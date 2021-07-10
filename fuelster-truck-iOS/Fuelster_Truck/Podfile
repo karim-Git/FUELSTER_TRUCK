@@ -1,0 +1,26 @@
+
+ # Pods for Fuelster
+
+  target 'FuelsterTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'FuelsterUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  source 'https://github.com/CocoaPods/Specs.git'
+ 
+  platform :ios, ‘8.0’
+  use_frameworks!
+  target 'Fuelster' do
+     pod 'GoogleMaps'
+     pod 'GooglePlaces'
+     pod 'SDWebImage', '~>3.8'
+     pod ‘Stripe’
+     pod 'Flurry-iOS-SDK/FlurrySDK'
+
+  end
+

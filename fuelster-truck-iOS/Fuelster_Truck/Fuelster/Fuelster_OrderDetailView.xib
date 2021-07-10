@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Montserrat-SemiBold.ttf">
+            <string>Montserrat-SemiBold</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="Fuelster_OrderDetailView" customModule="Fuelster" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="357"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="saA-JI-f5w">
+                    <rect key="frame" x="0.0" y="0.0" width="200" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="PKL-8Z-cNa"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gRD-LQ-hZt">
+                    <rect key="frame" x="5" y="107" width="93" height="31"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="31" id="lCE-mJ-uFf"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <color key="textColor" red="0.31372549019607843" green="0.31372549019607843" blue="0.31372549019607843" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ETD:2PM-4PM" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RoE-aq-g7b">
+                    <rect key="frame" x="109" y="107" width="87" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="9D6-Yg-DT6"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="11"/>
+                    <color key="textColor" red="0.31372549020000001" green="0.31372549020000001" blue="0.31372549020000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z7l-yz-NrZ">
+                    <rect key="frame" x="5" y="281" width="190" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="Exu-gR-0Ht"/>
+                    </constraints>
+                    <attributedString key="attributedText">
+                        <fragment content="Vehicle:">
+                            <attributes>
+                                <color key="NSColor" red="0.31372549019607843" green="0.31372549019607843" blue="0.31372549019607843" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="12" name="HelveticaNeue"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                        <fragment content="DFDGFEG">
+                            <attributes>
+                                <color key="NSColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <font key="NSFont" size="12" name="HelveticaNeue"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jqd-Py-zf3">
+                    <rect key="frame" x="5" y="310" width="190" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="Bad-jf-N4r"/>
+                    </constraints>
+                    <attributedString key="attributedText">
+                        <fragment content="Make and Model:dfgGHYTHJGN">
+                            <attributes>
+                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <font key="NSFont" size="12" name="HelveticaNeue"/>
+                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                            </attributes>
+                        </fragment>
+                    </attributedString>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UQY-0B-vpA">
+                    <rect key="frame" x="0.0" y="0.0" width="200" height="100"/>
+                    <connections>
+                        <action selector="mapButtonAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="eJc-Jj-I2n"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="FRh-hq-AHB">
+                    <rect key="frame" x="5" y="156" width="190" height="117"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="117" id="69a-2c-E7t"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="RoE-aq-g7b" firstAttribute="top" secondItem="UQY-0B-vpA" secondAttribute="bottom" constant="7" id="4Dt-ji-1eM"/>
+                <constraint firstItem="UQY-0B-vpA" firstAttribute="top" secondItem="saA-JI-f5w" secondAttribute="top" id="4cX-Ts-ME3"/>
+                <constraint firstItem="gRD-LQ-hZt" firstAttribute="top" secondItem="UQY-0B-vpA" secondAttribute="bottom" constant="7" id="784-TI-74G"/>
+                <constraint firstItem="Z7l-yz-NrZ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="5" id="8Ni-2p-u3N"/>
+                <constraint firstItem="FRh-hq-AHB" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="5" id="9Oy-pB-aLh"/>
+                <constraint firstItem="jqd-Py-zf3" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="5" id="A8d-Mz-39L"/>
+                <constraint firstItem="UQY-0B-vpA" firstAttribute="bottom" secondItem="saA-JI-f5w" secondAttribute="bottom" id="CXs-Vj-yNI"/>
+                <constraint firstItem="Z7l-yz-NrZ" firstAttribute="top" secondItem="FRh-hq-AHB" secondAttribute="bottom" constant="8" id="FMG-in-ecZ"/>
+                <constraint firstItem="FRh-hq-AHB" firstAttribute="top" secondItem="gRD-LQ-hZt" secondAttribute="bottom" constant="18" id="Ifb-EL-Nwa"/>
+                <constraint firstItem="RoE-aq-g7b" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="centerX" constant="9" id="K7S-Go-eWf"/>
+                <constraint firstItem="saA-JI-f5w" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="LgD-Ie-W3D"/>
+                <constraint firstAttribute="trailing" secondItem="saA-JI-f5w" secondAttribute="trailing" id="O4h-Ye-TJn"/>
+                <constraint firstAttribute="trailing" secondItem="Z7l-yz-NrZ" secondAttribute="trailing" constant="5" id="QLA-ql-1Z3"/>
+                <constraint firstItem="UQY-0B-vpA" firstAttribute="trailing" secondItem="saA-JI-f5w" secondAttribute="trailing" id="SM6-oF-oFa"/>
+                <constraint firstAttribute="trailing" secondItem="FRh-hq-AHB" secondAttribute="trailing" constant="5" id="VYr-CF-Dxf"/>
+                <constraint firstAttribute="trailing" secondItem="jqd-Py-zf3" secondAttribute="trailing" constant="5" id="XXT-HT-3Yp"/>
+                <constraint firstItem="UQY-0B-vpA" firstAttribute="leading" secondItem="saA-JI-f5w" secondAttribute="leading" id="Xog-fY-VFI"/>
+                <constraint firstItem="gRD-LQ-hZt" firstAttribute="trailing" secondItem="iN0-l3-epB" secondAttribute="centerX" constant="-2" id="Zdb-T3-oRg"/>
+                <constraint firstItem="saA-JI-f5w" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="d2p-Vl-Y0c"/>
+                <constraint firstAttribute="trailing" secondItem="RoE-aq-g7b" secondAttribute="trailing" constant="4" id="fs4-tN-baA"/>
+                <constraint firstItem="jqd-Py-zf3" firstAttribute="top" secondItem="FRh-hq-AHB" secondAttribute="bottom" constant="37" id="pHk-Ug-1VF"/>
+                <constraint firstItem="gRD-LQ-hZt" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="5" id="yvL-75-q5J"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="orderDeliveryTimeLbl" destination="RoE-aq-g7b" id="ozv-ox-ARe"/>
+                <outlet property="orderLocationImg" destination="saA-JI-f5w" id="HTx-cr-d7M"/>
+                <outlet property="orderLocationLbl" destination="gRD-LQ-hZt" id="7hf-cw-Pw5"/>
+                <outlet property="orderVehicleLbl" destination="Z7l-yz-NrZ" id="t9i-Gw-LBc"/>
+                <outlet property="orderVehicleModelLbl" destination="jqd-Py-zf3" id="Brb-T4-KlO"/>
+                <outlet property="vehicleImg" destination="FRh-hq-AHB" id="Lhj-im-LfE"/>
+            </connections>
+            <point key="canvasLocation" x="284" y="-51.5"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,31 @@
+PODS:
+  - Flurry-iOS-SDK/FlurrySDK (7.6.6)
+  - GoogleMaps (2.0.1):
+    - GoogleMaps/Maps (= 2.0.1)
+  - GoogleMaps/Base (2.0.1)
+  - GoogleMaps/Maps (2.0.1):
+    - GoogleMaps/Base (= 2.0.1)
+  - GooglePlaces (2.0.1):
+    - GoogleMaps/Base (= 2.0.1)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - Stripe (8.0.6)
+
+DEPENDENCIES:
+  - Flurry-iOS-SDK/FlurrySDK
+  - GoogleMaps
+  - GooglePlaces
+  - SDWebImage (~> 3.8)
+  - Stripe
+
+SPEC CHECKSUMS:
+  Flurry-iOS-SDK: 97bbeec09cca666c2f1772f6e161c4f8ccff611e
+  GoogleMaps: f09da64fc987c1aa29394567c3cab5a3df83c402
+  GooglePlaces: 72fab1d1651c6df0322f2aad245ffb15b80d3c56
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  Stripe: 7b3f1406c6bbc2f872a5781259da824750a7ee9c
+
+PODFILE CHECKSUM: 38ef58ecbd5b685b7b4b5906879ee03a0e2a4d9f
+
+COCOAPODS: 1.0.0

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Montserrat-Regular.ttf">
+            <string>Montserrat-Regular</string>
+            <string>Montserrat-Regular</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="Fuelster_NotificationView" customModule="Fuelster" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="400" height="70"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="swb-aD-2P6" userLabel="containerView">
+                    <rect key="frame" x="0.0" y="0.0" width="400" height="70"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="You have a order update." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fFG-4N-UFX">
+                            <rect key="frame" x="10" y="26" width="177" height="18"/>
+                            <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="14"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gAk-nl-Vco">
+                            <rect key="frame" x="192" y="20" width="80" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="7xC-jb-DU1"/>
+                                <constraint firstAttribute="width" constant="80" id="V0e-j6-4lT"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="15"/>
+                            <state key="normal" title="Click here">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="clickHereTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="EME-8x-It8"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zJK-7p-B3e">
+                            <rect key="frame" x="360" y="20" width="30" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="qF0-sg-mSI"/>
+                                <constraint firstAttribute="width" constant="30" id="tjN-Bn-QTb"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="GillSans" family="Gill Sans" pointSize="30"/>
+                            <state key="normal" title="X"/>
+                            <connections>
+                                <action selector="closeTapped:" destination="iN0-l3-epB" eventType="touchUpInside" id="aY2-dE-pDi"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.1647058824" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="zJK-7p-B3e" firstAttribute="centerY" secondItem="swb-aD-2P6" secondAttribute="centerY" id="Jcj-Lq-JRa"/>
+                        <constraint firstAttribute="height" constant="70" id="WaB-28-vuk"/>
+                        <constraint firstItem="fFG-4N-UFX" firstAttribute="centerY" secondItem="swb-aD-2P6" secondAttribute="centerY" id="cYu-YN-YYm"/>
+                        <constraint firstAttribute="trailing" secondItem="zJK-7p-B3e" secondAttribute="trailing" constant="10" id="ima-l3-JxP"/>
+                        <constraint firstItem="gAk-nl-Vco" firstAttribute="leading" secondItem="fFG-4N-UFX" secondAttribute="trailing" constant="5" id="opw-oa-SeU"/>
+                        <constraint firstItem="fFG-4N-UFX" firstAttribute="leading" secondItem="swb-aD-2P6" secondAttribute="leading" constant="10" id="s0x-AM-6PS"/>
+                        <constraint firstItem="gAk-nl-Vco" firstAttribute="centerY" secondItem="swb-aD-2P6" secondAttribute="centerY" id="vmV-Ur-AgN"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="swb-aD-2P6" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="8yE-DM-qEo"/>
+                <constraint firstAttribute="trailing" secondItem="swb-aD-2P6" secondAttribute="trailing" id="eZA-eK-BmH"/>
+                <constraint firstItem="swb-aD-2P6" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="kEn-01-uBA"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="clickHereBtn" destination="gAk-nl-Vco" id="zLi-Ri-5QB"/>
+                <outlet property="closeButton" destination="zJK-7p-B3e" id="q7W-RE-o86"/>
+                <outlet property="messageLbl" destination="fFG-4N-UFX" id="6P1-a3-p3v"/>
+            </connections>
+            <point key="canvasLocation" x="290" y="-512"/>
+        </view>
+    </objects>
+</document>
